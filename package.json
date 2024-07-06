@@ -1,0 +1,24 @@
+{
+  "name": "best-functions",
+  "version": "1.0.0",
+  "description": "This package regroup the best of my js functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSearha/best-functions.git"
+  },
+  "keywords": [
+    "best",
+    "functions",
+    "js"
+  ],
+  "author": "Alex Searha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexSearha/best-functions/issues"
+  },
+  "homepage": "https://github.com/AlexSearha/best-functions#readme"
+}
