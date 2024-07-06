@@ -1,6 +1,6 @@
 {
   "name": "best-functions",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This package regroup the best of my js functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,7 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.hello = void 0;
-const hello = (name) => {
-    return `Hello, ${name}!`;
+exports.truncateString = void 0;
+const truncateString = (sentence, maxwidth) => {
+    if (sentence.length > maxwidth) {
+        return sentence.split("").splice(0, maxwidth).join("") + "...";
+    }
+    return sentence;
 };
-exports.hello = hello;
+exports.truncateString = truncateString;

@@ -1,1 +1,1 @@
-export declare const hello: (name: string) => string;
+export declare const truncateString: (sentence: string, maxwidth: number) => string;

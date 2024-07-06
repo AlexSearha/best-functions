@@ -1,3 +1,6 @@
-export const hello = (name: string): string => {
-  return `Hello, ${name}!`;
+export const truncateString = (sentence: string, maxwidth: number): string => {
+  if (sentence.length > maxwidth) {
+    return sentence.split("").splice(0, maxwidth).join("") + "...";
+  }
+  return sentence;
 };
