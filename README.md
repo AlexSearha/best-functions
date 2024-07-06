@@ -12,11 +12,17 @@ You can install this utility as a package via npm. First, ensure you have Node.j
 npm install best-functions
 ```
 
-### Functions
+## How To Use
+
+### Import the package
 
 ```javascript
-import { truncateString } from "truncate-string-utility";
+const { truncateString } = require("best-functions");
+```
 
+### Function
+
+```javaScript
 truncateString(sentence, maxwidth);
 
 console.log("I'm a too big sentence", 3); // I'm...
